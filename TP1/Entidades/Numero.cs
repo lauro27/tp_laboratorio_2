@@ -8,7 +8,7 @@ using System.Xml.Schema;
 
 namespace Entidades
 {
-    class Numero
+    public class Numero
     {
         private double numero;
 
@@ -27,11 +27,11 @@ namespace Entidades
         /// </summary>
         /// <param name="binario">numero binario a convertir</param>
         /// <returns>numero convertido o "Valor invalido"</returns>
-        string BinarioDecimal(string binario)
+        public string BinarioDecimal(string binario)
         {
             if (!EsBinario(binario))
             {
-                return "Valor Invalido";
+                return "Valor invalido";
             }
             else
             {
@@ -57,24 +57,30 @@ namespace Entidades
         /// </summary>
         /// <param name="numero">Numero a convertir</param>
         /// <returns>Numero convertido o "Valor invalido"</returns>
-        string DecimalBinario(double numero)
+        public string DecimalBinario(double numero)
         {
             //redondea el numero para abajo antes de pasar el string a la otra funcion DecimalBinario
             return DecimalBinario(Math.Floor(numero).ToString());
         }
 
-        string DecimalBinario(string numero)
+        public string DecimalBinario(string numero)
         {
-            string resultado;
+            string resultado = "";
             try
             {
-                if (double.Parse(numero) < 0)
+                double num = double.Parse(numero);
+                if (num < 0)
                 {
                     //error si es negativo
                     return "Valor invalido";
                 }
                 //convierte de string binario a int y luego de int a string
-                return Convert.ToInt32(numero, 2).ToString();
+                for (int i = 0; num >=1; i++)
+                {
+                    resultado = Math.Floor(num % 2).ToString() + resultado;
+                    num = num / 2;
+                }
+                return resultado;
             }
             catch (Exception)
             {

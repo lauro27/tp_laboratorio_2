@@ -15,9 +15,9 @@ namespace Entidades
         /// <param name="num2">Segundo numero a operar</param>
         /// <param name="operador">Operación matematica(+, *, - o /) a realizar, por defecto es suma</param>
         /// <returns>El resultado de la operación</returns>
-        static double Operar(Numero num1, Numero num2, string operador) 
+        public static double Operar(Numero num1, Numero num2, string operador) 
         {
-            double resultado;
+            double resultado = 0;
             switch (ValidarOperador(operador[0])) 
             {
                 case "+":
@@ -34,7 +34,7 @@ namespace Entidades
                     break;
             }
 
-            return 0;
+            return resultado;
         }
 
         private static string ValidarOperador(char operador)
