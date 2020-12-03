@@ -1,0 +1,30 @@
+ CLASE DE: Legislacion
+ POR NOMBRE COMPLETO: , 
+Nacionalidad: Argentino
+
+
+LEGAJO NÚMERO: 0
+Clases del día:
+Legislacion
+Legislacion
+
+ Alumnos: 
+NOMBRE COMPLETO: Hernandez, Miguel
+Nacionalidad: Extranjero
+
+
+LEGAJO NÚMERO: 4
+ ESTADO DE CUENTA: 
+AlDia
+ TOMA CLASES DE: Legislacion
+
+NOMBRE COMPLETO: Smith, Rodrigo
+Nacionalidad: Argentino
+
+
+LEGAJO NÚMERO: 8
+ ESTADO DE CUENTA: 
+AlDia
+ TOMA CLASES DE: Legislacion
+
+
