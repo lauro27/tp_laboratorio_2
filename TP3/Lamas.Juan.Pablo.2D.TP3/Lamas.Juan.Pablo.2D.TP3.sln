@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{C20078BD-4AB8-4DA8-8ECF-7AB920278EBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitario", "TestUnitario\TestUnitario.csproj", "{9AFC8ED4-4171-4554-85E5-7EF22143B128}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C20078BD-4AB8-4DA8-8ECF-7AB920278EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C20078BD-4AB8-4DA8-8ECF-7AB920278EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C20078BD-4AB8-4DA8-8ECF-7AB920278EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFC8ED4-4171-4554-85E5-7EF22143B128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFC8ED4-4171-4554-85E5-7EF22143B128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFC8ED4-4171-4554-85E5-7EF22143B128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFC8ED4-4171-4554-85E5-7EF22143B128}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

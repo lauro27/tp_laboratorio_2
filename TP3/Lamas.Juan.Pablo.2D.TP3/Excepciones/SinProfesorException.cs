@@ -9,5 +9,6 @@ namespace Excepciones
     public class SinProfesorException : Exception
     {
         public SinProfesorException() : base("Falta profesor en la clase") { }
+        public SinProfesorException(string mensaje) : base(mensaje) { }
     }
 }
